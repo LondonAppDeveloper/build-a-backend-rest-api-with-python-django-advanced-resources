@@ -27,7 +27,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-
 ```
 
 
-## Create an SSH Key
+## Creating an SSH Deploy Key
 
 To create a new SSH key which can be used as the deploy key, run the command below:
 
@@ -36,4 +36,10 @@ ssh-keygen -t ed25519 -b 4096
 ```
 
 Note: This will create a new `ed25519` key, which is the recommended key for GitHub.
+
+To display the public key, run:
+
+```sh
+cat ~/.ssh/id_ed25519.pub
+```
 
