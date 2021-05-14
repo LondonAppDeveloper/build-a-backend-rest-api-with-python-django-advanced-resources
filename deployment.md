@@ -20,6 +20,8 @@ sudo systemctl start docker.service
 sudo usermod -aG docker ec2-user
 ```
 
+Note: After running the above, you need to logout by typing `exit` and re-connect to the server in order for the permissions to come into effect.
+
 Install Docker Compose:
 
 ```sh
